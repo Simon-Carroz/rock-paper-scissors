@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(247, 221, 172);
+    background-color: rgb(37, 82, 82);
+
+}
+
+
+.intro-message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+#scoring {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 40px;
+}
+
+
+.player-buttons {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+#display-result {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
